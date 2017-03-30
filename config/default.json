@@ -2,9 +2,9 @@
     "environment" : "development",
     "language" : "en",
     "RabbitMQ" : {
-        "host" : "localhost",
-        "port" : 1441,
-        "username" : "",
+        "host" : "us00206474.ericsson.se",
+        "port" : 4369,
+        "username" : "guest",
         "password" : "guest",
         "connectionTimeout" : 10000,
         "ssl": { "enabled" : true,
