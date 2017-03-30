@@ -1,0 +1,18 @@
+{
+    "environment" : "development",
+    "language" : "en",
+    "RabbitMQ" : {
+        "host" : "localhost",
+        "port" : 1441,
+        "username" : "",
+        "password" : "guest",
+        "connectionTimeout" : 10000,
+        "ssl": { "enabled" : true,
+                 "keyFile" : "/path/to/key/file",
+                 "certFile" : "/path/to/cert/file",
+                 "caFile" : "/path/to/cacert/file",
+                 "rejectUnauthorized" : true
+               },
+        "Queue" : ["Worker","RemoteWorker"]
+    }
+}
