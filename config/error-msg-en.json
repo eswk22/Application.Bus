@@ -4,7 +4,12 @@
             "UsernameEmpty" : "Username should not be empty",
             "PasswordEmpty" : "Password should not be empty",
             "HostEmpty" : "Host should not be empty",
-            "PortEmpty" : "Port should not be empty"
+            "PortEmpty" : "Port should not be empty",
+            "ConnectionNotAvail" : "Connection not available",
+            "ConnectionNotLive" : "Connetion not live"
+        },
+        "Message" : {
+            "QueueCreated" : "Queue has been successfully created"
         }
     }
 }
